@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Good" representedClassName="OwnCoreDataStack.Good" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="warehouse" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Warehouse" inverseName="goods" inverseEntity="Warehouse" syncable="YES"/>
+    </entity>
+    <entity name="Warehouse" representedClassName="OwnCoreDataStack.Warehouse" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="goods" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Good" inverseName="warehouse" inverseEntity="Good" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Warehouse" positionX="-63" positionY="-18" width="128" height="73"/>
+        <element name="Good" positionX="187" positionY="9" width="128" height="73"/>
+    </elements>
+</model>
