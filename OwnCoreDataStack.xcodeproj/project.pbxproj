@@ -16,7 +16,7 @@
 		4D82D8361B5F3B5300E92930 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D82D8351B5F3B5300E92930 /* CoreDataStack.swift */; };
 		4D82D8391B5F4FBA00E92930 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D82D8371B5F4FBA00E92930 /* Model.xcdatamodeld */; };
 		4D82D83F1B5F5B3900E92930 /* Warehouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D82D83E1B5F5B3900E92930 /* Warehouse.swift */; };
-		4D82D8411B5F5B3A00E92930 /* Good.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D82D8401B5F5B3A00E92930 /* Good.swift */; };
+		4DC391501B60DBED00C345A7 /* Good.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3914F1B60DBED00C345A7 /* Good.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,7 @@
 		4D82D8351B5F3B5300E92930 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		4D82D8381B5F4FBA00E92930 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		4D82D83E1B5F5B3900E92930 /* Warehouse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Warehouse.swift; sourceTree = "<group>"; };
-		4D82D8401B5F5B3A00E92930 /* Good.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Good.swift; sourceTree = "<group>"; };
+		4DC3914F1B60DBED00C345A7 /* Good.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Good.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +85,12 @@
 		4D82D8121B5F3ABF00E92930 /* OwnCoreDataStack */ = {
 			isa = PBXGroup;
 			children = (
+				4DC3914F1B60DBED00C345A7 /* Good.swift */,
 				4D82D8151B5F3ABF00E92930 /* AppDelegate.swift */,
 				4D82D8171B5F3ABF00E92930 /* ViewController.swift */,
 				4D82D8191B5F3ABF00E92930 /* Main.storyboard */,
 				4D82D8351B5F3B5300E92930 /* CoreDataStack.swift */,
 				4D82D8371B5F4FBA00E92930 /* Model.xcdatamodeld */,
-				4D82D8401B5F5B3A00E92930 /* Good.swift */,
 				4D82D83E1B5F5B3900E92930 /* Warehouse.swift */,
 				4D82D81C1B5F3ABF00E92930 /* Images.xcassets */,
 				4D82D81E1B5F3ABF00E92930 /* LaunchScreen.xib */,
@@ -224,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D82D8411B5F5B3A00E92930 /* Good.swift in Sources */,
+				4DC391501B60DBED00C345A7 /* Good.swift in Sources */,
 				4D82D8361B5F3B5300E92930 /* CoreDataStack.swift in Sources */,
 				4D82D83F1B5F5B3900E92930 /* Warehouse.swift in Sources */,
 				4D82D8181B5F3ABF00E92930 /* ViewController.swift in Sources */,
@@ -425,6 +425,7 @@
 				4D82D8311B5F3AC000E92930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D82D8321B5F3AC000E92930 /* Build configuration list for PBXNativeTarget "OwnCoreDataStackTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +434,7 @@
 				4D82D8341B5F3AC000E92930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

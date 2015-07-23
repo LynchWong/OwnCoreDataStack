@@ -23,6 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let viewController = navigationController.topViewController as! ViewController
         viewController.managedContext = coreDataStack.context
+        viewController.managedObjectModel = coreDataStack.model
+        viewController.psc = coreDataStack.psc
         
         return true
     }

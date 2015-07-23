@@ -21,6 +21,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="vXZ-lx-hvc" id="J7Q-vE-Mn9"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="M2v-IV-SfX"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -33,13 +34,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QER-aa-T1j">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="hC4-Yh-Ipc">
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" systemItem="add" id="hC4-Yh-Ipc">
                             <connections>
                                 <action selector="add:" destination="vXZ-lx-hvc" id="RmZ-G5-1iS"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="addButton" destination="hC4-Yh-Ipc" id="K50-mA-INV"/>
                         <outlet property="tableView" destination="pOS-jb-MqS" id="8jt-f3-YS0"/>
                     </connections>
                 </viewController>
